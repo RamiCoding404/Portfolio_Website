@@ -38,6 +38,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/bcd870b1-4b50-4f4b-92bf-ed8b32a5cdf0"
             method="POST"
+            encType="multipart/form-data"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
