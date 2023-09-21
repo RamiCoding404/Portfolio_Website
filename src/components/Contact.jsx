@@ -43,12 +43,14 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               placeholder="Enter your name"
               className="p-2  bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
               name="email"
+              required
               placeholder="Enter your Email"
               className=" my-4 p-2   bg-transparent border-2 rounded-md text-white focus:outline-none"
               onChange={formik.handleChange}
@@ -57,6 +59,7 @@ const Contact = () => {
             />
             <textarea
               name="massage"
+              required
               type="text"
               rows="10"
               className="p-2  bg-transparent border-2 rounded-md text-white focus:outline-none"
