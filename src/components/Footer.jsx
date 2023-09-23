@@ -41,7 +41,7 @@ const Footer = () => {
           <BsFillPersonLinesFill size={25} />
         </>
       ),
-      href: "", //hana cv
+      href: "/Rami-ibrahim CV.pdf", //hana cv
       style: "rounded-br-md",
       download: true,
     },

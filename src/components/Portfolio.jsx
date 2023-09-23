@@ -1,5 +1,6 @@
 import React from "react";
 import gpt3 from "../assets/gpt3.png";
+import food from "../assets/food.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -8,6 +9,12 @@ const Portfolio = () => {
       src: gpt3,
       demoHref: "https://gpt3-website.surge.sh/",
       codeHref: "https://github.com/RamiCoding404/gpt3_project",
+    },
+    {
+      id: 2,
+      src: food,
+      demoHref: "https://food_website.surge.sh/",
+      codeHref: "https://github.com/RamiCoding404/Food_Website",
     },
   ];
   const handleDemoClick = (demoHref) => {

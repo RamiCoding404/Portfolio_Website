@@ -8,6 +8,8 @@ import laravel from "../assets/laravel.png";
 import js from "../assets/js.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import boostrap from "../assets/bootsrap.png";
+import mysql from "../assets/mysql.png";
 
 const Exp = () => {
   const tech = [
@@ -25,45 +27,58 @@ const Exp = () => {
     },
     {
       id: 3,
-      src: react,
-      title: "REACT",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 4,
-      src: php,
-      title: "PHP",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 5,
-      src: nodejs,
-      title: "Nodejs",
-      style: "shadow-green-500",
-    },
-    {
-      id: 6,
-      src: laravel,
-      title: "Laravel",
-      style: "shadow-red-500",
-    },
-    {
-      id: 7,
       src: js,
       title: "JS",
       style: "shadow-yellow-500",
     },
     {
-      id: 8,
-      src: github,
-      title: "github",
-      style: "shadow-gray-200",
+      id: 4,
+      src: boostrap,
+      title: "Bootstrap",
+      style: "shadow-indigo-500",
     },
     {
-      id: 9,
+      id: 5,
+      src: react,
+      title: "REACT",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
+    },
+    {
+      id: 7,
+      src: mysql,
+      title: "MySql",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 8,
+      src: php,
+      title: "PHP",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 9,
+      src: laravel,
+      title: "Laravel",
+      style: "shadow-red-500",
+    },
+    {
+      id: 10,
+      src: nodejs,
+      title: "Nodejs",
+      style: "shadow-green-500",
+    },
+
+    {
+      id: 11,
+      src: github,
+      title: "github",
+      style: "shadow-gray-200",
     },
   ];
   return (
