@@ -41,9 +41,8 @@ const Footer = () => {
           <BsFillPersonLinesFill size={25} />
         </>
       ),
-      href: "/Rami-ibrahim CV.pdf", //hana cv
+      href: "https://drive.google.com/drive/folders/1eTvlzvibS5cCfbCQaOXPn3XcbOVQbsoB?usp=drive_link", //hana cv
       style: "rounded-br-md",
-      download: true,
     },
   ];
   return (
