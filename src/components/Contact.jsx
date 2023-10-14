@@ -45,26 +45,26 @@ const Contact = () => {
               type="text"
               name="name"
               required
-              placeholder="Enter your name"
+              placeholder="Enter Your Name"
               className="p-2  bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
               name="email"
               required
-              placeholder="Enter your Email"
+              placeholder="Enter Your Email"
               className=" my-4 p-2   bg-transparent border-2 rounded-md text-white focus:outline-none"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}
             />
             <textarea
-              name="massage"
+              name="message"
               required
               type="text"
               rows="10"
               className="p-2  bg-transparent border-2 rounded-md text-white focus:outline-none"
-              placeholder="Enter your massage"
+              placeholder="Enter Your Message"
             ></textarea>
 
             {formik.touched.email && formik.errors.email ? (
