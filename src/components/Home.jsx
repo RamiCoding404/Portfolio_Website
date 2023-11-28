@@ -10,15 +10,15 @@ const Home = () => {
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4    md:flex-row sm:flex-row ">
         <div className="flex flex-col justify-center h-full w-full  ">
           <h2 className="text-2xl sm:text-2xl md:text-4xl font-bold text-white">
-            I'am Full Stack Developer
+            I'm a Front-End Developer
           </h2>
           <p className="text-gray-500 py-4  max-w-md text-md sm:text-sm md:text-lg">
-            Graduated From The Faculty of Computer Science In Arab Academy for
-            Science and Technology 2021 , and I embarked on my software
-            development journey by starting to develop websites. As a developer,
-            I am always striving to enhance my skills and knowledge, with a
-            strong passion for utilizing technology to create innovative
-            solutions that can bring positive change to people's lives.
+            I graduated from the Faculty of Computer Science at the Arab Academy
+            for Science and Technology in 2021. Since then, I have been on a
+            software development journey, starting with the development of
+            websites. As a developer, I am constantly seeking to improve my
+            skills and knowledge, and I have a strong passion for using
+            technology to create innovative solutions.
           </p>
 
           <div className="py-6">
