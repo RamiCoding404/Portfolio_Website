@@ -2,26 +2,40 @@ import React from "react";
 import gpt3 from "../assets/gpt3.png";
 import food from "../assets/food.png";
 import ecommerce from "../assets/ec.png";
+import vscode from "../assets/vscode.png";
+import productbuilder from "../assets/productbulider.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: gpt3,
-      demoHref: "https://gpt3-website.surge.sh/",
+      demoHref: "https://gpt3-project-six.vercel.app/",
       codeHref: "https://github.com/RamiCoding404/gpt3_project",
     },
     {
       id: 2,
       src: food,
-      demoHref: "https://food_website.surge.sh/",
+      demoHref: "https://food-website-neon.vercel.app/",
       codeHref: "https://github.com/RamiCoding404/Food_Website",
     },
     {
       id: 3,
       src: ecommerce,
-      demoHref: "https://ecommerce_shop.surge.sh/",
+      demoHref: "https://ecommerce-website-nine-zeta.vercel.app/",
       codeHref: "https://github.com/RamiCoding404/ecommerce_website",
+    },
+    {
+      id: 4,
+      src: vscode,
+      demoHref: "https://vscode-app-project.vercel.app/",
+      codeHref: "https://github.com/RamiCoding404/vscode-app-project",
+    },
+    {
+      id: 5,
+      src: productbuilder,
+      demoHref: "https://product-builder-website.vercel.app/",
+      codeHref: "https://github.com/RamiCoding404/Product_Builder_Website",
     },
   ];
   const handleDemoClick = (demoHref) => {

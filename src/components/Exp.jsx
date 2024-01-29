@@ -10,6 +10,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import boostrap from "../assets/bootsrap.png";
 import mysql from "../assets/mysql.png";
+import TypeScript from "../assets/typescript.png";
 
 const Exp = () => {
   const tech = [
@@ -33,49 +34,55 @@ const Exp = () => {
     },
     {
       id: 4,
+      src: TypeScript,
+      title: "TS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 5,
       src: boostrap,
       title: "Bootstrap",
       style: "shadow-indigo-500",
     },
     {
-      id: 5,
+      id: 6,
       src: react,
       title: "REACT",
       style: "shadow-blue-500",
     },
     {
-      id: 6,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
     },
     {
-      id: 7,
+      id: 8,
       src: mysql,
       title: "MySql",
       style: "shadow-blue-500",
     },
     {
-      id: 8,
+      id: 9,
       src: php,
       title: "PHP",
       style: "shadow-blue-500",
     },
     {
-      id: 9,
+      id: 10,
       src: laravel,
       title: "Laravel",
       style: "shadow-red-500",
     },
     {
-      id: 10,
+      id: 11,
       src: nodejs,
       title: "Nodejs",
       style: "shadow-green-500",
     },
 
     {
-      id: 11,
+      id: 12,
       src: github,
       title: "github",
       style: "shadow-gray-200",
