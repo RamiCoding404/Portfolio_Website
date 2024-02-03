@@ -4,6 +4,8 @@ import food from "../assets/food.png";
 import ecommerce from "../assets/ec.png";
 import vscode from "../assets/vscode.png";
 import productbuilder from "../assets/productbulider.png";
+import login from "../assets/login.png";
+import eco from "../assets/eco.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -36,6 +38,18 @@ const Portfolio = () => {
       src: productbuilder,
       demoHref: "https://product-builder-website.vercel.app/",
       codeHref: "https://github.com/RamiCoding404/Product_Builder_Website",
+    },
+    {
+      id: 6,
+      src: login,
+      demoHref: "https://fullstack-todo-app-beta.vercel.app",
+      codeHref: "https://github.com/RamiCoding404/fullstack-todo-app",
+    },
+    {
+      id: 7,
+      src: eco,
+      demoHref: "https://e-commerce-client-side-two.vercel.app/",
+      codeHref: "https://github.com/RamiCoding404/E-commerce-client-side",
     },
   ];
   const handleDemoClick = (demoHref) => {
