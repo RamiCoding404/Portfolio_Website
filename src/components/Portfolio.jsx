@@ -6,6 +6,7 @@ import vscode from "../assets/vscode.png";
 import productbuilder from "../assets/productbulider.png";
 import login from "../assets/login.png";
 import eco from "../assets/eco.png";
+import nextjs from "../assets/nextjs.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -50,6 +51,12 @@ const Portfolio = () => {
       src: eco,
       demoHref: "https://e-commerce-client-side-two.vercel.app/",
       codeHref: "https://github.com/RamiCoding404/E-commerce-client-side",
+    },
+    {
+      id: 8,
+      src: nextjs,
+      demoHref: "https://fullstack-nextjs-todo-app-nine.vercel.app/",
+      codeHref: "https://github.com/RamiCoding404/fullstack-nextjs-todo-app",
     },
   ];
   const handleDemoClick = (demoHref) => {
