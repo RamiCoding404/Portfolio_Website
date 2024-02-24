@@ -3,7 +3,7 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import react from "../assets/react.png";
 import php from "../assets/php.png";
-import nodejs from "../assets/node.png";
+import nextjs from "../assets/next-js-icon.png";
 import laravel from "../assets/laravel.png";
 import js from "../assets/js.png";
 import github from "../assets/github.png";
@@ -76,9 +76,9 @@ const Exp = () => {
     },
     {
       id: 11,
-      src: nodejs,
-      title: "Nodejs",
-      style: "shadow-green-500",
+      src: nextjs,
+      title: "NextJS",
+      style: "shadow-gray-500 bg-gray-900",
     },
 
     {
